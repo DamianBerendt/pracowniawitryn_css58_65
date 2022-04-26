@@ -1,0 +1,45 @@
+﻿body {
+    background-color: silver;
+}
+
+p {
+    font-size: 10pt;
+}
+
+p:first-child {
+    font-size: 9mm;
+    font-style: italic;
+}
+
+
+
+div#pierwszy_berendt {
+    background-color: rgb(255,192,203);
+    width: 708pt;
+    border-radius: 13px;
+    border-color: rgb(128,0,128);
+    border-style: solid;
+    border-width: 7px;
+}
+
+div#drugi_berendt {
+    background-color: rgb(144,238,144);
+    width: 908pt;
+	margin-left: auto;
+	margin-right: auto;
+    border-radius: 14px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 3px;
+}
+
+div#trzeci_berendt {
+    background-color: rgb(173,216,230);
+    width: 1108pt;
+    margin-left: auto;
+	margin-right: auto;
+    border-radius: 18px;
+    border-color: rgb(0,0,128);
+    border-style: solid;
+    border-width: 5px;
+}

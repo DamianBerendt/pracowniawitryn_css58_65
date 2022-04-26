@@ -1,0 +1,27 @@
+div {
+    width: 602px;
+    background-color: green;
+
+}
+
+div#blok1_filipowicz:hover {
+    background-color: blue;
+    font-size: 21mm;
+}
+
+div#blok2_filipowicz:hover {
+    background-color: yellow;
+    font-size: 21mm;
+}
+
+div#blok3_filipowicz:hover {
+    background-color: golden;
+    font-size: 21mm;
+}
+
+
+/*
+   
+    hover; - jest selektorem który spełnia wartość jak nad danym elementem html znajduje się kursor myszy
+	Berendt
+*/

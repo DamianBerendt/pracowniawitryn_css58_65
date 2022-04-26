@@ -1,0 +1,79 @@
+
+<html>
+<head>
+    <title></title>
+
+</head>
+<body>
+<textarea cols=200 rows=100>
+HTML:
+<html>
+<head>
+    <title></title>
+    <link rel="Stylesheet" type="text/css" href="zadanie65_bere.css" />
+</head>
+<body>
+    <div id="pierwszy_berendt"><p>bPierwszy akapit/pierwszy DIV --> Damian Berendt nazwa ID akapitu id=pierwszy_berendt</p> <p> Drugi akapit/pierwszy DIV <br> pierwszy akapit -->p {font-size:10pt;} bo numer parzysty <br> szerokość bloku = 700+2*4=708pt<br> Pierwszy DIV --> kolor różowy</p>  <p> trzeci akapit/pierwwszy DIV <br> pierwszy DIV --> obramowanie fioletowe DIV <br> pierwszy DIV --> obramowanie grubość 7px, ciągłe (solid) <br> pierwszy DIV -->r1=7mm+6(Damian)=13mm </div>
+    <br />
+    <div id="drugi_berendt"><p> Pierwszy akapit/drugi DIV --> Damian nazwa ID akapitu id=drugi_berendt</p> <p> Drugi akapit/drugi DIV <br> drugi DIV-->kolor jasnozielony </p> <p> trzeci akapit/drugi DIV <br> drugi DIV--> obramowanie czarne DIV <br> drugi DIV--> obramowanie grubość 3px, ciągłe <br>  drugi DIV--> r2=7mm+7(berendt)=14mm </p></div>
+    <br />
+    <div id="trzeci_berendt"><p>Pierwszy akapit/trzeci DIV--> 3F nazwa ID akapitu id =trzeci_berendt</p> <p> Drugi akapit trzeci div <br> pierwszy DIV -> kolor jasnoniebieski </p> <p> trzeci akapit trzeci div(solid) <br> trzeci DIV --> obramowanie granatowe DIV <br> trzeci DIV ->obramowanie grubość 5px<br>trzeci DIV ->r3=7+11=18  </div>
+    <br />
+   
+</body>
+</html>
+   
+   
+  CSS:
+  
+body {
+    background-color: silver;
+}
+
+p {
+    font-size: 10pt;
+}
+
+p:first-child {
+    font-size: 9mm;
+    font-style: italic;
+}
+
+
+
+div#pierwszy_berendt {
+    background-color: rgb(255,192,203);
+    width: 708pt;
+    border-radius: 13px;
+    border-color: rgb(128,0,128);
+    border-style: solid;
+    border-width: 7px;
+}
+
+div#drugi_berendt {
+    background-color: rgb(144,238,144);
+    width: 908pt;
+	margin-left: auto;
+	margin-right: auto;
+    border-radius: 14px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 3px;
+}
+
+div#trzeci_berendt {
+    background-color: rgb(173,216,230);
+    width: 1108pt;
+    margin-left: auto;
+	margin-right: auto;
+    border-radius: 18px;
+    border-color: rgb(0,0,128);
+    border-style: solid;
+    border-width: 5px;
+}
+   
+</body>
+</html>
+</textarea>
+</body>
+</html>
